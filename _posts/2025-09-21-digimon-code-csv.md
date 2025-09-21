@@ -11,4 +11,3 @@ author: Jack Zhang
 ---
 
 [This is the csv file I used](https://drive.google.com/file/d/1YGVROpS7pg_0ZP3zk31e3bG2ghwz4Snw/view)
-[This is a link to a different site](https://deanattali.com/)
