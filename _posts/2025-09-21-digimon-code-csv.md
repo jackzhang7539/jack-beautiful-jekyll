@@ -44,7 +44,8 @@ matches = count_digimon("Type", "Vaccine")
 print("\nMatches found for types:", matches)
 ```
 Result for "Type", "Vaccine": 70
-The code runs by changin the two parameters inside of the function to whcihever the user wants and then the code searches through each digimon to see how many have the first match then, they sort through the ones firstly matched to see which ones match the second parameter.
+
+The code runs by changing the two parameters inside of the function to whichever the user wants and then the code searches through each digimon to see how many have the first match then, they sort through the ones firstly matched to see which ones match the second parameter.
 
 The third part of the lab was to write a function that can create a random team of 3 Digimon that have max of 15 memory and a minimum of 300 attack.
 ```python
@@ -81,6 +82,14 @@ with open("datasets/digimon.csv", "r") as f:
     else:
         print("No teams found")
 ```
-How the code works is that I created a list called list and then I added the name, attack, and memory of each Digimon onto the list. I then used random to find 3 random Digimon out of the list and see if they meet the requirements. If they don't, the code continues searching. It searches at most 10000 times meaning that I am basically garaunteed to find a match. One imrpovement I could do in the future is learn to make the code search until a match is found or break if there is no match. Lastly, I printed out the stats of each Digimon in the team of three. I learned to use 'f' inside of print lines which basicallt formats the print lines when I use {} so that I don't have to constantly use commas and quotation marks. 
+Example of result:
+Team found:
+Dorumon (Atk: 128, Mem: 5)
+Gomamon (Atk: 93, Mem: 5)
+Gabumon (Atk: 94, Mem: 5)
+Total Attack: 315
+Total Memory: 15/15
+
+How the code works is that I created a list called list and then I added the name, attack, and memory of each Digimon onto the list. I then used random to find 3 random Digimon out of the list and see if they meet the requirements. If they don't, the code continues searching. It searches at most 10000 times meaning that I am basically guaranteed to find a match. One imrpovement I could do in the future is learn to make the code search until a match is found or break if there is no match. Lastly, I printed out the stats of each Digimon in the team of three. I learned to use 'f' inside of print lines which basicallt formats the print lines when I use {} so that I don't have to constantly use commas and quotation marks. 
 
 
